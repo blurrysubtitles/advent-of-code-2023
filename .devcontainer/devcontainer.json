@@ -1,0 +1,15 @@
+{
+  "name": "devcontainer-robit",
+  //Additional advanced configuration is possible: https://code.visualstudio.com/remote/advancedcontainers/overview
+  //Metadata reference: https://containers.dev/implementors/json_reference/
+
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  //Develop C# and .NET based applications. Includes all needed SDKs, extensions, and dependencies.
+  //https://github.com/devcontainers/images/tree/main/src/dotnet
+
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest"
+    }
+  }
+}
