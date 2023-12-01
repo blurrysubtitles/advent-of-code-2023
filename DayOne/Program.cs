@@ -14,7 +14,7 @@ public static class Program
         }
         catch (Exception exception)
         {
-            Console.WriteLine(exception.Message)
+            Console.WriteLine(exception.Message);
         }
     }
 }
