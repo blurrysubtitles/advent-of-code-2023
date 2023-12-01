@@ -1,4 +1,4 @@
-using day1;
+using DayOne;
 
 var builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddHostedService<Worker>();

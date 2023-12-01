@@ -1,4 +1,4 @@
-namespace day1;
+namespace DayOne;
 
 public class Worker : BackgroundService
 {
