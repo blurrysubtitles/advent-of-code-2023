@@ -12,7 +12,7 @@ public static class Program
             IHost host = builder.Build();
             host.Run();
         }
-        catch (Exception exception)
+        catch(Exception exception)
         {
             Console.WriteLine(exception.Message);
         }
