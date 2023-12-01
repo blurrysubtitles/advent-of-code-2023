@@ -1,7 +1,20 @@
-using DayOne;
+namespace DayOne;
 
-var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+public static class Program
+{
+    public static async Task Main(string[] args)
+    {
+        try
+        {
+            HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+            builder.Services.AddHostedService<Worker>();
 
-var host = builder.Build();
-host.Run();
+            IHost host = builder.Build();
+            host.Run();
+        }
+        catch (Exception exception)
+        {
+            Console.WriteLine(exception.Message)
+        }
+    }
+}
