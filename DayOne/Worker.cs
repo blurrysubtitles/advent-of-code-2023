@@ -18,31 +18,22 @@ public class Worker : BackgroundService
             _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
 
             using StreamReader fileReader = new(_settings.InputFilePath);
-            int lineCount = 0;
+            int sum = 0;
 
-            while(cancellationToken.IsCancellationRequested is false
-                && fileReader.EndOfStream is false)
+            while(cancellationToken.IsCancellationRequested is false && fileReader.EndOfStream is false)
             {
                 string line = await fileReader.ReadLineAsync(cancellationToken) ?? string.Empty;
-                lineCount++;
                 MatchCollection matches = Regex.Matches(line, _settings.SingleDigitRegexPattern);
-
-                if(matches.Count == 0)
-                {
-                    _logger.LogWarning($"no matches found on line {lineCount}");
-                }
-                else
-                {
-                    string firstDigit = matches.First().Value;
-                    string lastDigit = matches.Last().Value;
-                    string lineResult = string.Concat(firstDigit, lastDigit);
-                    _logger.LogInformation($"{nameof(lineCount)}={lineCount} :: {nameof(lineResult)}={lineResult}");
-                }
+                string lineResult = string.Concat(matches.First().Value, matches.Last().Value);
+                int lineValue = int.Parse(lineResult);
+                sum += lineValue;
             }
+
+            _logger.LogInformation("sum of cleaned line values = {Sum}", sum);
         }
         catch(Exception exception)
         {
-            _logger.LogError(exception.Message);
+            _logger.LogError("{ExceptionMessage}", exception.Message);
         }
     }
 }
