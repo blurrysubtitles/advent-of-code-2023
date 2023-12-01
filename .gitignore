@@ -1,0 +1,8 @@
+##################################################
+#   Git will ignore files the match these patterns
+#   https://git-scm.com/docs/gitignore
+##################################################
+
+bld/
+bin/
+obj/
