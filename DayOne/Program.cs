@@ -10,7 +10,7 @@ public static class Program
             builder.Services.AddHostedService<Worker>();
 
             IHost host = builder.Build();
-            host.Run();
+            await host.RunAsync();
         }
         catch(Exception exception)
         {
