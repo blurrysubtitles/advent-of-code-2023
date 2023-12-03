@@ -23,7 +23,7 @@ public class Worker : BackgroundService
             while(cancellationToken.IsCancellationRequested is false && fileReader.EndOfStream is false)
             {
                 string line = await fileReader.ReadLineAsync(cancellationToken) ?? string.Empty;
-                MatchCollection matches = Regex.Matches(line, _settings.SingleDigitRegexPattern);
+                MatchCollection matches = Regex.Matches(line, _settings.RegexPattern);
                 string lineResult = string.Concat(matches.First().Value, matches.Last().Value);
                 int lineValue = int.Parse(lineResult);
                 sum += lineValue;
