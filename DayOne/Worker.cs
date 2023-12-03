@@ -33,7 +33,7 @@ public class Worker : BackgroundService
         }
         catch(Exception exception)
         {
-            _logger.LogError("{ExceptionMessage}", exception.Message);
+            _logger.LogError(exception, "{ExceptionMessage}", exception.Message);
         }
     }
 }
