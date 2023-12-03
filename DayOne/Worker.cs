@@ -15,7 +15,7 @@ public class Worker : BackgroundService
     {
         try
         {
-            _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+            _logger.LogInformation("Searching {File} for matches to {RegexPattern}", _settings.InputFilePath, _settings.RegexPattern);
 
             using StreamReader fileReader = new(_settings.InputFilePath);
             int sum = 0;
