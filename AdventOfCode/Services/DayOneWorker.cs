@@ -25,8 +25,9 @@ public class DayOneWorker : BackgroundService
             while(cancellationToken.IsCancellationRequested is false && fileReader.EndOfStream is false)
             {
                 string line = await fileReader.ReadLineAsync(cancellationToken) ?? string.Empty;
-                MatchCollection matches = Regex.Matches(line, _settings.RegexPattern, RegexOptions.IgnoreCase);
-                string lineResult = string.Concat(matches.First().ParseMatch(), matches.Last().ParseMatch());
+                Match first = Regex.Match(line, _settings.RegexPattern, RegexOptions.IgnoreCase);
+                Match last = Regex.Match(line, _settings.RegexPattern, RegexOptions.IgnoreCase | RegexOptions.RightToLeft);
+                string lineResult = string.Concat(first.ParseMatch(), last.ParseMatch());
                 sum += long.Parse(lineResult);
             }
 
