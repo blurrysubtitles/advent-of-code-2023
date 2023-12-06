@@ -1,14 +1,16 @@
+using AdventOfCode.Extensions;
+using AdventOfCode.Models;
 using Microsoft.Extensions.Options;
 using System.Text.RegularExpressions;
 
-namespace DayOne;
+namespace AdventOfCode.Services;
 
-public class Worker : BackgroundService
+public class DayOneWorker : BackgroundService
 {
-    private readonly WorkerSettings _settings;
-    private readonly ILogger<Worker> _logger;
+    private readonly DayOneSettings _settings;
+    private readonly ILogger<DayOneWorker> _logger;
 
-    public Worker(IOptions<WorkerSettings> options, ILogger<Worker> logger)
+    public DayOneWorker(IOptions<DayOneSettings> options, ILogger<DayOneWorker> logger)
         => (_settings, _logger) = (options.Value, logger);
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
@@ -18,15 +20,14 @@ public class Worker : BackgroundService
             _logger.LogInformation("Searching {File} for matches to {RegexPattern}", _settings.InputFilePath, _settings.RegexPattern);
 
             using StreamReader fileReader = new(_settings.InputFilePath);
-            int sum = 0;
+            long sum = 0;
 
             while(cancellationToken.IsCancellationRequested is false && fileReader.EndOfStream is false)
             {
                 string line = await fileReader.ReadLineAsync(cancellationToken) ?? string.Empty;
-                MatchCollection matches = Regex.Matches(line, _settings.RegexPattern);
-                string lineResult = string.Concat(matches.First().Value, matches.Last().Value);
-                int lineValue = int.Parse(lineResult);
-                sum += lineValue;
+                MatchCollection matches = Regex.Matches(line, _settings.RegexPattern, RegexOptions.IgnoreCase);
+                string lineResult = string.Concat(matches.First().ParseMatch(), matches.Last().ParseMatch());
+                sum += long.Parse(lineResult);
             }
 
             _logger.LogInformation("sum of cleaned line values = {Sum}", sum);

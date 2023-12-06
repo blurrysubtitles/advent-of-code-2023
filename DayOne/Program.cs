@@ -1,4 +1,6 @@
-namespace DayOne;
+using AdventOfCode.Extensions;
+
+namespace AdventOfCode;
 
 public static class Program
 {
@@ -7,10 +9,8 @@ public static class Program
         try
         {
             HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
-            builder.Services.AddHostedService<Worker>();
-
-            IHost host = builder.Build();
-            await host.RunAsync();
+            builder.Services.AddDayOneWorker();
+            await builder.Build().RunAsync();
         }
         catch(Exception exception)
         {
