@@ -5,11 +5,11 @@ namespace AdventOfCode.Extensions;
 
 public static class DependencyInjectionExtensions
 {
-    public static void AddDayOneWorker(this IServiceCollection services)
+    public static void AddDay01Worker(this IServiceCollection services)
         => services
-        .AddHostedService<DayOneWorker>()
-        .AddOptions<DayOneSettings>()
-        .BindConfiguration(DayOneSettings.Name)
+        .AddHostedService<Day01Worker>()
+        .AddOptions<Day01Settings>()
+        .BindConfiguration(Day01Settings.Name)
         .ValidateDataAnnotations()
         .ValidateOnStart();
 }

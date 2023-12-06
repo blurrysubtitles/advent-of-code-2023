@@ -5,12 +5,12 @@ using System.Text.RegularExpressions;
 
 namespace AdventOfCode.Services;
 
-public class DayOneWorker : BackgroundService
+public class Day01Worker : BackgroundService
 {
-    private readonly DayOneSettings _settings;
-    private readonly ILogger<DayOneWorker> _logger;
+    private readonly Day01Settings _settings;
+    private readonly ILogger<Day01Worker> _logger;
 
-    public DayOneWorker(IOptions<DayOneSettings> options, ILogger<DayOneWorker> logger)
+    public Day01Worker(IOptions<Day01Settings> options, ILogger<Day01Worker> logger)
         => (_settings, _logger) = (options.Value, logger);
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)

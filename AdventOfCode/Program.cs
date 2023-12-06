@@ -9,7 +9,7 @@ public static class Program
         try
         {
             HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
-            builder.Services.AddDayOneWorker();
+            builder.Services.AddDay01Worker();
             await builder.Build().RunAsync();
         }
         catch(Exception exception)

@@ -1,6 +1,6 @@
 namespace AdventOfCode.Services;
 
-public class DayTwoWorker
+public class Day02Worker
 {
 
 }
