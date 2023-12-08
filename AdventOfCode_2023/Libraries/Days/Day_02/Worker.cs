@@ -1,10 +1,7 @@
-using AdventOfCode.Models;
 using Microsoft.Extensions.Options;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode.Services;
-
-public class Day02Worker : BackgroundService
+public class Worker : BackgroundService
 {
     private readonly Day02Settings _settings;
     private readonly ILogger<Day02Worker> _logger;

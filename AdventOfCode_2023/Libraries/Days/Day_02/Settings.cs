@@ -1,6 +1,4 @@
-namespace AdventOfCode.Models;
-
-public class Day02Settings
+public class Settings
 {
     public static readonly string Name = nameof(Day02Settings);
 
