@@ -1,7 +1,5 @@
 using AdventOfCode.Extensions;
 
-namespace AdventOfCode;
-
 public static class Program
 {
     public static async Task Main(string[] args)
