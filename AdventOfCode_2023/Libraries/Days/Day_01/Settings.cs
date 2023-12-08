@@ -1,5 +1,3 @@
-using AdventOfCode.Extensions;
-
 public class Settings
 {
     public static readonly string Name = nameof(Settings);

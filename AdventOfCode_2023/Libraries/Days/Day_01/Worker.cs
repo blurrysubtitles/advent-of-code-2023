@@ -1,17 +1,12 @@
-using AdventOfCode.Extensions;
-using AdventOfCode.Models;
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode.Services;
-
-public class Day01Worker : BackgroundService
+public class Worker : BaseUnitOfWork
 {
-    private readonly Day01Settings _settings;
-    private readonly ILogger<Day01Worker> _logger;
+    private readonly Settings _settings;
 
-    public Day01Worker(IOptions<Day01Settings> options, ILogger<Day01Worker> logger)
-        => (_settings, _logger) = (options.Value, logger);
+    public Worker(IOptions<Settings> options, ILogger<Worker> logger) : base(logger) => _settings = options.Value;
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
     {

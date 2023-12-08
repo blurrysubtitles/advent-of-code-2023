@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Regex\AdventOfCode_2023.Libraries.Shared.Regex.csproj" />
+    <ProjectReference Include="..\..\Shared\UnitOfWork\AdventOfCode_2023.Libraries.Shared.UnitOfWork.csproj" />
+  </ItemGroup>
+
 </Project>
