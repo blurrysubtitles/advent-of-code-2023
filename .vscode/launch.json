@@ -5,7 +5,7 @@
             "name": "Debug - Advent of Code",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/AdventOfCode/AdventOfCode.csproj"
+            "projectPath": "${workspaceFolder}/AdventOfCode_2023/Applications/Worker/AdventOfCode_2023.Applications.Worker.csproj"
         }
     ]
 }
