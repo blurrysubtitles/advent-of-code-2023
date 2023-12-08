@@ -5,7 +5,7 @@ namespace AdventOfCode_2023.Libraries.Shared.DependencyInjection;
 
 public static class ServiceCollectionExtensions
 {
-    public static void AddWorker<TUnitOfWork>(this IServiceCollection services) where TUnitOfWork : BaseUnitOfWork
+    public static IServiceCollection AddWorker<TUnitOfWork>(this IServiceCollection services) where TUnitOfWork : BaseUnitOfWork
         => services
         .AddHostedService<TUnitOfWork>();
 }
