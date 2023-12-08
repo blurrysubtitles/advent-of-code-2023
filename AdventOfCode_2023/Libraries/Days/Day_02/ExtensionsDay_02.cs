@@ -1,7 +1,7 @@
+using AdventOfCode_2023.Libraries.Days.Day_02;
 using AdventOfCode_2023.Libraries.Shared.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace AdventOfCode_2023.Libraries.Days.Day_02;
+namespace Microsoft.Extensions.DependencyInjection;
 
 public static class ExtensionsDay_02
 {
