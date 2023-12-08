@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4004ACD5-EE11-4FA6-8DE5-1569AC95B552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B7BE8A21-3374-4A80-85E6-D79D88EBD272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode_2023.Libraries.Shared.UnitOfWork", "Libraries\Shared\UnitOfWork\AdventOfCode_2023.Libraries.Shared.UnitOfWork.csproj", "{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7BE8A21-3374-4A80-85E6-D79D88EBD272} = {4004ACD5-EE11-4FA6-8DE5-1569AC95B552}
+		{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977} = {B7BE8A21-3374-4A80-85E6-D79D88EBD272}
 	EndGlobalSection
 EndGlobal
