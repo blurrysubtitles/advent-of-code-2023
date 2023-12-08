@@ -1,10 +1,8 @@
+using Microsoft.Extensions.DependencyInjection;
+
 public static class ServiceCollectionExtensions
 {
-    public static void AddDay01Worker(this IServiceCollection services)
+    public static void AddWorker<TUnitOfWork>(this IServiceCollection services) where TUnitOfWork : BaseUnitOfWork
         => services
-        .AddHostedService<Day01Worker>()
-        .AddOptions<Day01Settings>()
-        .BindConfiguration(Day01Settings.Name)
-        .ValidateDataAnnotations()
-        .ValidateOnStart();
+        .AddHostedService<TUnitOfWork>();
 }
