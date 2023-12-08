@@ -1,13 +1,12 @@
+using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Text.RegularExpressions;
 
-public class Worker : BackgroundService
+public class Worker : BaseUnitOfWork
 {
-    private readonly Day02Settings _settings;
-    private readonly ILogger<Day02Worker> _logger;
+    private readonly Settings _settings;
 
-    public Day02Worker(IOptions<Day02Settings> options, ILogger<Day02Worker> logger)
-        => (_settings, _logger) = (options.Value, logger);
+    public Worker(IOptions<Settings> options, ILogger<Worker> logger) : base(logger) => _settings = options.Value;
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
     {

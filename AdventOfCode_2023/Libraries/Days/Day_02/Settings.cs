@@ -1,6 +1,6 @@
 public class Settings
 {
-    public static readonly string Name = nameof(Day02Settings);
+    public static readonly string Name = nameof(Settings);
 
     public string InputFilePath { get; set; } = "./Content/02/input.txt";
     public int Red { get; set; } = 12;
