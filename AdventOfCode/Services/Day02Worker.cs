@@ -1,5 +1,6 @@
 using AdventOfCode.Models;
 using Microsoft.Extensions.Options;
+using System.Text.RegularExpressions;
 
 namespace AdventOfCode.Services;
 
@@ -23,10 +24,11 @@ public class Day02Worker : BackgroundService
             while(cancellationToken.IsCancellationRequested is false && fileReader.EndOfStream is false)
             {
                 string line = (await fileReader.ReadLineAsync(cancellationToken)) ?? string.Empty;
+                string lineWithoutWhitespace = Regex.Replace(line, @"\s", string.Empty);
                 string[] gameSamples = line.Split(":");
                 string gameNumber = gameSamples[0];
                 string samples = gameSamples[1];
-                string[]
+                string[] sampleGroups = samples.Split(";");
             }
 
             _logger.LogInformation("sum of ids of possible games = {Sum}", sum);
