@@ -1,5 +1,7 @@
 using System.Text.RegularExpressions;
 
+namespace AdventOfCode_2023.Libraries.Shared.Regex;
+
 public static class RegexOptionsExtensions
 {
     public static RegexOptions IgnoreCaseOnly             => RegexOptions.IgnoreCase;

@@ -1,11 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
   <PropertyGroup>
-    <RootNamespace>AdventOfCode_2023.Applications.Worker</RootNamespace>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-day1-c49fe7c6-dcc0-423b-afe4-9f0bbbf5fbb5</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Libraries\Days\AdventOfCode_2023.Libraries.Days.Day_01\AdventOfCode_2023.Libraries.Days.Day_01.csproj" />
-    <ProjectReference Include="..\..\Libraries\Days\AdventOfCode_2023.Libraries.Days.Day_02\AdventOfCode_2023.Libraries.Days.Day_02.csproj" />
-    <ProjectReference Include="..\..\Libraries\Shared\AdventOfCode_2023.Libraries.Shared.DependencyInjection\AdventOfCode_2023.Libraries.Shared.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\Libraries\Days\Day_01\AdventOfCode_2023.Libraries.Days.Day_01.csproj" />
+    <ProjectReference Include="..\..\Libraries\Days\Day_02\AdventOfCode_2023.Libraries.Days.Day_02.csproj" />
+    <ProjectReference Include="..\..\Libraries\Shared\DependencyInjection\AdventOfCode_2023.Libraries.Shared.DependencyInjection.csproj" />
   </ItemGroup>
 </Project>

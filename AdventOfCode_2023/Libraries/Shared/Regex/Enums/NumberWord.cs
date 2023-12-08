@@ -1,3 +1,5 @@
+namespace AdventOfCode_2023.Libraries.Shared.Regex;
+
 public enum NumberWord
 {
     Zero  = 0,

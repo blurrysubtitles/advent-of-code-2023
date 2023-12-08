@@ -1,3 +1,5 @@
+namespace AdventOfCode_2023.Libraries.Days.Day_02;
+
 public class Settings
 {
     public static readonly string Name = nameof(Settings);
