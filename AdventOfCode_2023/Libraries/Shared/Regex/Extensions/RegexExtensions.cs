@@ -1,7 +1,3 @@
-using AdventOfCode.Enums;
-
-namespace AdventOfCode.Extensions;
-
 public static class RegexExtensions
 {
     public static string AlternationOperator => "|";

@@ -1,7 +1,4 @@
-using AdventOfCode.Enums;
 using System.Text.RegularExpressions;
-
-namespace AdventOfCode.Extensions;
 
 public static class MatchExtensions
 {

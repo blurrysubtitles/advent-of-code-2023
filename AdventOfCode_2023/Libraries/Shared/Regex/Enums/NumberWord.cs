@@ -1,5 +1,3 @@
-namespace AdventOfCode.Enums;
-
 public enum NumberWord
 {
     Zero  = 0,
