@@ -23,9 +23,9 @@ public static class Program
 
             await app.RunAsync();
         }
-        catch
+        catch(Exception exception)
         {
-            Console.WriteLine("Main failed");
+            Console.WriteLine("Main failed: {0}", exception.Message);
         }
     }
 }
