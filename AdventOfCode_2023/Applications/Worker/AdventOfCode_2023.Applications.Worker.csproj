@@ -14,5 +14,5 @@
     <ProjectReference Include="..\..\Libraries\Days\Day_01\AdventOfCode_2023.Libraries.Days.Day_01.csproj" />
     <ProjectReference Include="..\..\Libraries\Days\Day_02\AdventOfCode_2023.Libraries.Days.Day_02.csproj" />
     <ProjectReference Include="..\..\Libraries\Shared\DependencyInjection\AdventOfCode_2023.Libraries.Shared.DependencyInjection.csproj" />
-  </ItemGroup>
+  </ItemGr
 </Project>
