@@ -7,7 +7,7 @@ public static class Program
         try
         {
             WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
-            
+
             builder.Services.AddRazorPages();
 
             WebApplication app = builder.Build();
@@ -21,7 +21,7 @@ public static class Program
 
             app.MapRazorPages();
 
-            app.Run();
+            await app.RunAsync();
         }
         catch
         {
