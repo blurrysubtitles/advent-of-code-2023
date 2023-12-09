@@ -6,12 +6,11 @@ public static class Program
     {
         try
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
+            WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+            
             builder.Services.AddRazorPages();
 
-            var app = builder.Build();
+            WebApplication app = builder.Build();
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
