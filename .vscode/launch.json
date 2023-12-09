@@ -2,10 +2,16 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug - Advent of Code",
+            "name": "Debug Worker",
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/AdventOfCode_2023/Applications/Worker/AdventOfCode_2023.Applications.Worker.csproj"
+        },
+        {
+            "name": "Debug Razor",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/AdventOfCode_2023/Applications/Web.Razor/AdventOfCode_2023.Applications.Web.Razor.csproj"
         }
     ]
 }
