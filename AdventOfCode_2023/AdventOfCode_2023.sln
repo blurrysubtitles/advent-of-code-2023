@@ -23,15 +23,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Application
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode_2023.Applications.Worker", "Applications\Worker\AdventOfCode_2023.Applications.Worker.csproj", "{257A6B92-A027-41B0-A006-A25BCE216AAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Razor", "Applications\Web.Razor\Web.Razor.csproj", "{91C07790-9081-45BB-AB28-BFC85BC350F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode_2023.Applications.Web.Razor", "Applications\Web.Razor\AdventOfCode_2023.Applications.Web.Razor.csproj", "{91C07790-9081-45BB-AB28-BFC85BC350F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{334D2ADE-7DDF-4C1C-B4A1-DDEBFE730977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -62,6 +59,9 @@ Global
 		{91C07790-9081-45BB-AB28-BFC85BC350F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C07790-9081-45BB-AB28-BFC85BC350F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C07790-9081-45BB-AB28-BFC85BC350F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B7BE8A21-3374-4A80-85E6-D79D88EBD272} = {4004ACD5-EE11-4FA6-8DE5-1569AC95B552}
