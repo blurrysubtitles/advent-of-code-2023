@@ -11,12 +11,13 @@
     "ghcr.io/devcontainers/features/git:1": {
       "version": "latest"
     }
-},
-"customizations": {
-	"vscode": {
-		"extensions": [
-			"ms-dotnettools.csdevkit"
-		]
-	}
-}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  },
+  "postStartCommand": "bash /scripts/startup.sh"
 }
