@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode_2023.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode_2023.Applications.Web.Razor", "Applications\Web.Razor\AdventOfCode_2023.Applications.Web.Razor.csproj", "{91C07790-9081-45BB-AB28-BFC85BC350F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode_2023.Libraries.Shared.Buildables", "Libraries\Shared\Buildables\AdventOfCode_2023.Libraries.Shared.Buildables.csproj", "{7D866F1E-D405-4EE8-8B27-6ACD4BAB61CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{91C07790-9081-45BB-AB28-BFC85BC350F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91C07790-9081-45BB-AB28-BFC85BC350F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91C07790-9081-45BB-AB28-BFC85BC350F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D866F1E-D405-4EE8-8B27-6ACD4BAB61CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D866F1E-D405-4EE8-8B27-6ACD4BAB61CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D866F1E-D405-4EE8-8B27-6ACD4BAB61CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D866F1E-D405-4EE8-8B27-6ACD4BAB61CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +79,6 @@ Global
 		{52E69A1B-E7BB-4245-AEBF-C963FA3F0344} = {EF6D020D-AB80-48E5-A5EA-A0DD2D09F608}
 		{257A6B92-A027-41B0-A006-A25BCE216AAD} = {C626A840-FACB-4F2C-9BA2-5C3EC125438B}
 		{91C07790-9081-45BB-AB28-BFC85BC350F8} = {C626A840-FACB-4F2C-9BA2-5C3EC125438B}
+		{7D866F1E-D405-4EE8-8B27-6ACD4BAB61CF} = {B7BE8A21-3374-4A80-85E6-D79D88EBD272}
 	EndGlobalSection
 EndGlobal
