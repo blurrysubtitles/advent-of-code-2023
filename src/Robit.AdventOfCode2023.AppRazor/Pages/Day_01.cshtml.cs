@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using AdventOfCode_2023.Libraries.Shared.Regex;
+using Robit.AdventOfCode2023.RegularExpressions;
 using System.Text.RegularExpressions;
 
 namespace Web.Razor.Pages;

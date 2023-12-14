@@ -1,4 +1,4 @@
-namespace AdventOfCode_2023.Libraries.Days.Day_02;
+namespace Robit.AdventOfCode2023.Day_02;
 
 public class Settings
 {

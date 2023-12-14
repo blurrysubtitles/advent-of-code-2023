@@ -1,16 +1,17 @@
-using AdventOfCode_2023.Libraries.Shared.Regex;
-using AdventOfCode_2023.Libraries.Shared.UnitOfWork;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Robit.AdventOfCode2023.RegularExpressions;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode_2023.Libraries.Days.Day_01;
+namespace Robit.AdventOfCode2023.Day_01;
 
-public class Worker : BaseUnitOfWork
+public class Worker : BackgroundService
 {
     private readonly Settings _settings;
+    private readonly ILogger<Worker> _logger;
 
-    public Worker(IOptions<Settings> options, ILogger<Worker> logger) : base(logger) => _settings = options.Value;
+    public Worker(IOptions<Settings> options, ILogger<Worker> logger) => (_settings, _logger) = (options.Value, logger);
 
     protected override async Task ExecuteAsync(CancellationToken cancellationToken)
     {

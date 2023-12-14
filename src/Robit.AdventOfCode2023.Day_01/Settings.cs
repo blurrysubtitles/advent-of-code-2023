@@ -1,6 +1,6 @@
-using AdventOfCode_2023.Libraries.Shared.Regex;
+using Robit.AdventOfCode2023.RegularExpressions;
 
-namespace AdventOfCode_2023.Libraries.Days.Day_01;
+namespace Robit.AdventOfCode2023.Day_01;
 
 public class Settings
 {
