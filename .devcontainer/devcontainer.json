@@ -18,6 +18,5 @@
         "ms-dotnettools.csdevkit"
       ]
     }
-  },
-  "postStartCommand": "bash /scripts/startup.sh"
+  }
 }
