@@ -6,3 +6,5 @@
 bld/
 bin/
 obj/
+
+.fake

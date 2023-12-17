@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Regu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_01", "src\Robit.AdventOfCode2023.Day_01\Robit.AdventOfCode2023.Day_01.csproj", "{FE9A0454-0CAC-49FD-921E-FB706FF26BC0}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Robit.AdventOfCode2023.Functions", "src\Robit.AdventOfCode2023.Functions\Robit.AdventOfCode2023.Functions.fsproj", "{4177CDE4-37DB-4452-A43F-FB30E4DA9B18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{FE9A0454-0CAC-49FD-921E-FB706FF26BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE9A0454-0CAC-49FD-921E-FB706FF26BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE9A0454-0CAC-49FD-921E-FB706FF26BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4177CDE4-37DB-4452-A43F-FB30E4DA9B18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4177CDE4-37DB-4452-A43F-FB30E4DA9B18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4177CDE4-37DB-4452-A43F-FB30E4DA9B18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4177CDE4-37DB-4452-A43F-FB30E4DA9B18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +57,6 @@ Global
 		{81617514-5E09-4BCE-83A2-69995DAAAC25} = {079F6C41-FF50-4A26-9E3B-C4BAB467D8B1}
 		{A3EB77D8-15E4-4516-9A13-50D6F2DD574F} = {079F6C41-FF50-4A26-9E3B-C4BAB467D8B1}
 		{FE9A0454-0CAC-49FD-921E-FB706FF26BC0} = {079F6C41-FF50-4A26-9E3B-C4BAB467D8B1}
+		{4177CDE4-37DB-4452-A43F-FB30E4DA9B18} = {079F6C41-FF50-4A26-9E3B-C4BAB467D8B1}
 	EndGlobalSection
 EndGlobal
