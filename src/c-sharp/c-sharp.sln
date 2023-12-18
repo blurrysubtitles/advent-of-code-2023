@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Abstractions", "Robit.AdventOfCode2023.Abstractions\Robit.AdventOfCode2023.Abstractions.csproj", "{093E71CB-7D93-4BA2-9C81-760DF9DDC4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.AppRazor", "Robit.AdventOfCode2023.AppRazor\Robit.AdventOfCode2023.AppRazor.csproj", "{59995877-69AF-4F73-AC15-03F9FDA5E9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_01", "Robit.AdventOfCode2023.Day_01\Robit.AdventOfCode2023.Day_01.csproj", "{031810CB-13DF-4095-ACD4-9289E241B0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_02", "Robit.AdventOfCode2023.Day_02\Robit.AdventOfCode2023.Day_02.csproj", "{4A803817-D2D1-4B00-8295-8934CF595D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.RegularExpressions", "Robit.AdventOfCode2023.Regex\Robit.AdventOfCode2023.RegularExpressions.csproj", "{8F4589BE-2D6D-4476-9680-91F38EB66BC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{093E71CB-7D93-4BA2-9C81-760DF9DDC4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093E71CB-7D93-4BA2-9C81-760DF9DDC4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093E71CB-7D93-4BA2-9C81-760DF9DDC4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093E71CB-7D93-4BA2-9C81-760DF9DDC4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59995877-69AF-4F73-AC15-03F9FDA5E9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59995877-69AF-4F73-AC15-03F9FDA5E9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59995877-69AF-4F73-AC15-03F9FDA5E9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59995877-69AF-4F73-AC15-03F9FDA5E9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031810CB-13DF-4095-ACD4-9289E241B0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031810CB-13DF-4095-ACD4-9289E241B0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031810CB-13DF-4095-ACD4-9289E241B0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031810CB-13DF-4095-ACD4-9289E241B0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A803817-D2D1-4B00-8295-8934CF595D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A803817-D2D1-4B00-8295-8934CF595D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A803817-D2D1-4B00-8295-8934CF595D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A803817-D2D1-4B00-8295-8934CF595D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F4589BE-2D6D-4476-9680-91F38EB66BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4589BE-2D6D-4476-9680-91F38EB66BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4589BE-2D6D-4476-9680-91F38EB66BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4589BE-2D6D-4476-9680-91F38EB66BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
