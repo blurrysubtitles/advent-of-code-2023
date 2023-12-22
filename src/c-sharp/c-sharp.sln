@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Abstractions", "Robit.AdventOfCode2023.Abstractions\Robit.AdventOfCode2023.Abstractions.csproj", "{2886F12D-8C9C-4A7F-9216-90E7E37A34AA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.AppRazor", "Robit.AdventOfCode2023.AppRazor\Robit.AdventOfCode2023.AppRazor.csproj", "{BC95C6E4-3509-47BF-A9C3-187E4B4EE504}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_01", "Robit.AdventOfCode2023.Day_01\Robit.AdventOfCode2023.Day_01.csproj", "{8495BB04-AB3F-451B-9F92-DC2B4298E84E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_02", "Robit.AdventOfCode2023.Day_02\Robit.AdventOfCode2023.Day_02.csproj", "{582468F9-4440-4249-AC0B-21061999C6EA}"
@@ -22,14 +18,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2886F12D-8C9C-4A7F-9216-90E7E37A34AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2886F12D-8C9C-4A7F-9216-90E7E37A34AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2886F12D-8C9C-4A7F-9216-90E7E37A34AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2886F12D-8C9C-4A7F-9216-90E7E37A34AA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC95C6E4-3509-47BF-A9C3-187E4B4EE504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC95C6E4-3509-47BF-A9C3-187E4B4EE504}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC95C6E4-3509-47BF-A9C3-187E4B4EE504}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC95C6E4-3509-47BF-A9C3-187E4B4EE504}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8495BB04-AB3F-451B-9F92-DC2B4298E84E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8495BB04-AB3F-451B-9F92-DC2B4298E84E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8495BB04-AB3F-451B-9F92-DC2B4298E84E}.Release|Any CPU.ActiveCfg = Release|Any CPU
