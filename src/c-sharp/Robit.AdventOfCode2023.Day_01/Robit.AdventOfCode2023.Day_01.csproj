@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Robit.AdventOfCode2023.Regex/Robit.AdventOfCode2023.RegularExpressions.csproj" />
+    <ProjectReference Include="../Robit.AdventOfCode2023.RegularExpressions/Robit.AdventOfCode2023.RegularExpressions.csproj" />
   </ItemGroup>
 
 </Project>
