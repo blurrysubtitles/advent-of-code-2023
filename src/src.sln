@@ -3,18 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{97E08834-0D9F-4FD7-B688-6631D4B8A3F8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_01", "c-sharp\Robit.AdventOfCode2023.Day_01\Robit.AdventOfCode2023.Day_01.csproj", "{BF7423AC-3403-434D-8185-F51A79AD65CA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.Day_02", "c-sharp\Robit.AdventOfCode2023.Day_02\Robit.AdventOfCode2023.Day_02.csproj", "{37AC83FC-4451-464D-83F2-9769315E0077}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.AdventOfCode2023.RegularExpressions", "c-sharp\Robit.AdventOfCode2023.RegularExpressions\Robit.AdventOfCode2023.RegularExpressions.csproj", "{F852E399-6939-498E-89D9-18E81313126D}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "f-sharp", "f-sharp", "{CE4E65AF-7D10-4383-A665-EF9D03A31F1B}"
-EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Robit.Samples.JustHelloWorld", "f-sharp\Robit.Samples.JustHelloWorld\Robit.Samples.JustHelloWorld.fsproj", "{61DDBF89-E68E-42DF-B3DB-E9C48371C375}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,29 +10,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BF7423AC-3403-434D-8185-F51A79AD65CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF7423AC-3403-434D-8185-F51A79AD65CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF7423AC-3403-434D-8185-F51A79AD65CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF7423AC-3403-434D-8185-F51A79AD65CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{37AC83FC-4451-464D-83F2-9769315E0077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37AC83FC-4451-464D-83F2-9769315E0077}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37AC83FC-4451-464D-83F2-9769315E0077}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37AC83FC-4451-464D-83F2-9769315E0077}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F852E399-6939-498E-89D9-18E81313126D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F852E399-6939-498E-89D9-18E81313126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F852E399-6939-498E-89D9-18E81313126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F852E399-6939-498E-89D9-18E81313126D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61DDBF89-E68E-42DF-B3DB-E9C48371C375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61DDBF89-E68E-42DF-B3DB-E9C48371C375}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61DDBF89-E68E-42DF-B3DB-E9C48371C375}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61DDBF89-E68E-42DF-B3DB-E9C48371C375}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{BF7423AC-3403-434D-8185-F51A79AD65CA} = {97E08834-0D9F-4FD7-B688-6631D4B8A3F8}
-		{37AC83FC-4451-464D-83F2-9769315E0077} = {97E08834-0D9F-4FD7-B688-6631D4B8A3F8}
-		{F852E399-6939-498E-89D9-18E81313126D} = {97E08834-0D9F-4FD7-B688-6631D4B8A3F8}
-		{61DDBF89-E68E-42DF-B3DB-E9C48371C375} = {CE4E65AF-7D10-4383-A665-EF9D03A31F1B}
 	EndGlobalSection
 EndGlobal
