@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A375DCA3-BF78-459E-8C67-5FE4FF1C2735}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Robit.Applications.FSharp.AdventOfCode2023", "src\Robit.Applications.FSharp.AdventOfCode2023\Robit.Applications.FSharp.AdventOfCode2023.fsproj", "{7ED4339F-677C-4714-9C6F-10E421AF0703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.Libraries.CSharp.Day01", "src\Robit.Libraries.CSharp.Day01\Robit.Libraries.CSharp.Day01.csproj", "{C55D04A7-C6E4-44EF-80F1-2EE406AA3DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.Libraries.CSharp.Day02", "src\Robit.Libraries.CSharp.Day02\Robit.Libraries.CSharp.Day02.csproj", "{09674D7C-8C00-4E26-B7EA-DC70B1BF1ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robit.Libraries.CSharp.RegularExpressions", "src\Robit.Libraries.CSharp.RegularExpressions\Robit.Libraries.CSharp.RegularExpressions.csproj", "{7BAF7BFA-1FA0-4A05-AA68-5BB89ADBBD73}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Robit.Applications.FSharp.MaybeBudget", "src\Robit.Applications.FSharp.MaybeBudget\Robit.Applications.FSharp.MaybeBudget.fsproj", "{28A93E5C-DBC0-4BF2-9808-92CBDFB56175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ED4339F-677C-4714-9C6F-10E421AF0703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED4339F-677C-4714-9C6F-10E421AF0703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED4339F-677C-4714-9C6F-10E421AF0703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED4339F-677C-4714-9C6F-10E421AF0703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55D04A7-C6E4-44EF-80F1-2EE406AA3DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55D04A7-C6E4-44EF-80F1-2EE406AA3DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55D04A7-C6E4-44EF-80F1-2EE406AA3DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55D04A7-C6E4-44EF-80F1-2EE406AA3DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09674D7C-8C00-4E26-B7EA-DC70B1BF1ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09674D7C-8C00-4E26-B7EA-DC70B1BF1ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09674D7C-8C00-4E26-B7EA-DC70B1BF1ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09674D7C-8C00-4E26-B7EA-DC70B1BF1ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAF7BFA-1FA0-4A05-AA68-5BB89ADBBD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAF7BFA-1FA0-4A05-AA68-5BB89ADBBD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAF7BFA-1FA0-4A05-AA68-5BB89ADBBD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAF7BFA-1FA0-4A05-AA68-5BB89ADBBD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A93E5C-DBC0-4BF2-9808-92CBDFB56175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A93E5C-DBC0-4BF2-9808-92CBDFB56175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A93E5C-DBC0-4BF2-9808-92CBDFB56175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A93E5C-DBC0-4BF2-9808-92CBDFB56175}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ED4339F-677C-4714-9C6F-10E421AF0703} = {A375DCA3-BF78-459E-8C67-5FE4FF1C2735}
+		{C55D04A7-C6E4-44EF-80F1-2EE406AA3DFC} = {A375DCA3-BF78-459E-8C67-5FE4FF1C2735}
+		{09674D7C-8C00-4E26-B7EA-DC70B1BF1ACD} = {A375DCA3-BF78-459E-8C67-5FE4FF1C2735}
+		{7BAF7BFA-1FA0-4A05-AA68-5BB89ADBBD73} = {A375DCA3-BF78-459E-8C67-5FE4FF1C2735}
+		{28A93E5C-DBC0-4BF2-9808-92CBDFB56175} = {A375DCA3-BF78-459E-8C67-5FE4FF1C2735}
+	EndGlobalSection
+EndGlobal
